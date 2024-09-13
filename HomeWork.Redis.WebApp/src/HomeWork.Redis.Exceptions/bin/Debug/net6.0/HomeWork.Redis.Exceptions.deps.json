@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HomeWork.Redis.Exceptions/1.0.0": {
+        "dependencies": {
+          "HomeWork.Redis.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HomeWork.Redis.Exceptions.dll": {}
+        }
+      },
+      "HomeWork.Redis.Domain/1.0.0": {
+        "runtime": {
+          "HomeWork.Redis.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeWork.Redis.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HomeWork.Redis.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

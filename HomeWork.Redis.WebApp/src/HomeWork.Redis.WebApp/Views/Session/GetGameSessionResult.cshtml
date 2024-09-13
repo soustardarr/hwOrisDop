@@ -1,0 +1,29 @@
+﻿@using HomeWork.Redis.Domain
+@model GameSession
+
+<h2>Результат сессии игры</h2>
+
+<div>
+    <strong>Session ID:</strong> @Model?.Id
+</div>
+<div>
+    <strong>Game:</strong> @Model?.GameCache.Game.Name
+</div>
+<div>
+    <strong>Description:</strong> @Model?.GameCache.Game.Description
+</div>
+<div>
+    <strong>Operation System:</strong> @Model?.GameCache.Game.OperationSystem
+</div>
+<div>
+    <strong>Player Nickname:</strong> @Model?.GameCache.Player.Nickname
+</div>
+<div>
+    <strong>Player Rank:</strong> @Model?.GameCache.Player.Rank
+</div>
+<div>
+    <strong>Created At:</strong> @Model?.CreatedAt
+</div>
+<div>
+    <strong>Closed At:</strong> @Model?.ClosedAt
+</div>

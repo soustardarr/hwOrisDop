@@ -1,0 +1,12 @@
+﻿@using HomeWork.Redis.Business.Abstractions.DeleteSession
+@model DeleteGameSessionRequestContext
+
+<h2>Удалить игровую сессию</h2>
+
+<form asp-action="Delete" method="post">
+    <div>
+        <label>Game Session ID</label>
+        <input asp-for="Id" type="text" />
+    </div>
+    <button type="submit">Удалить сессию</button>
+</form>

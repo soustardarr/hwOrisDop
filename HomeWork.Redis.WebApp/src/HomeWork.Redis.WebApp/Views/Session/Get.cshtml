@@ -1,0 +1,12 @@
+﻿@using HomeWork.Redis.Business.Abstractions.GetSession
+@model GetGameSessionRequestContext
+
+<h2>Получить информацию о сессии игры</h2>
+
+<form asp-action="Get" method="post">
+    <div>
+        <label>Game ID</label>
+        <input asp-for="Id" type="text" />
+    </div>
+    <button type="submit">Отправить</button>
+</form>

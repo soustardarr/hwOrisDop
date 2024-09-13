@@ -1,0 +1,20 @@
+﻿@using HomeWork.Redis.Domain.Dto
+@model RequestResult
+
+<h2>Результат удаления игровой сессии</h2>
+
+<div>
+    <strong>Message:</strong> @Model.Message
+</div>
+<div>
+    <strong>Code:</strong> @Model.Code
+</div>
+
+@if (Model.Code == Codes.Success)
+{
+    <p>Game session удалена успешно!</p>
+}
+else
+{
+    <p>Ошибка при удалении игровой сессии: @Model.Message</p>
+}

@@ -1,0 +1,73 @@
+﻿@using HomeWork.Redis.Business.Abstractions.CreateSession
+@model CreateGameSessionRequestContext
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Game Session</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Create Game Session</h2>
+
+        <form asp-action="Create" method="post" class="game-session-form">
+            <fieldset>
+                <legend>Game Session</legend>
+                <div class="form-group">
+                    <label for="Session_Id">Session Id:</label>
+                    <input type="text" id="Session_Id" name="Session.Id" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Session_CreatedAt">Created At:</label>
+                    <input type="datetime-local" id="Session_CreatedAt" name="Session.CreatedAt" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Session_ClosedAt">Closed At:</label>
+                    <input type="datetime-local" id="Session_ClosedAt" name="Session.ClosedAt" class="form-control" required />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Game</legend>
+                <div class="form-group">
+                    <label for="Session_GameCache_Game_Name">Game Name:</label>
+                    <input type="text" id="Session_GameCache_Game_Name" name="Session.GameCache.Game.Name" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Session_GameCache_Game_Description">Game Description:</label>
+                    <textarea id="Session_GameCache_Game_Description" name="Session.GameCache.Game.Description" class="form-control" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="Session_GameCache_Game_OperationSystem">Operation System:</label>
+                    <select id="Session_GameCache_Game_OperationSystem" name="Session.GameCache.Game.OperationSystem" class="form-control">
+                        <option value="Windows">Windows</option>
+                        <option value="MacOS">MacOS</option>
+                        <option value="Linux">Linux</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Player</legend>
+                <div class="form-group">
+                    <label for="Session_GameCache_Player_Nickname">Nickname:</label>
+                    <input type="text" id="Session_GameCache_Player_Nickname" name="Session.GameCache.Player.Nickname" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Session_GameCache_Player_Rank">Rank:</label>
+                    <input type="text" id="Session_GameCache_Player_Rank" name="Session.GameCache.Player.Rank" class="form-control" required />
+                </div>
+            </fieldset>
+
+            <button type="submit" class="submit-button">Create Session</button>
+        </form>
+    </div>
+</body>
+</html>

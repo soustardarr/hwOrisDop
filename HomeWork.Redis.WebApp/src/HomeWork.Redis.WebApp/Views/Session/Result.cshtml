@@ -1,0 +1,14 @@
+﻿@using HomeWork.Redis.Domain.Dto
+@model RequestResult
+
+<h2>Game Session Result</h2>
+
+<p>@ViewBag.Message</p>
+
+@if (Model != null)
+{
+    <div>
+        <p>Code: @Model.Code</p>
+        <p>Message: @Model.Message</p>
+    </div>
+}

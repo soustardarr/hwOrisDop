@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "MQ2fDB+bQCpBXM32KEV9E34BAK4Edw2jheeB65scKtd+UGG61f27tBq7YGKC3Py3FFKkFmkYrtzk2S7tEfpKLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iphon\\source\\repos\\dfsdsfs\\rusel-dz\\HomeWork.Redis.WebApp\\src\\HomeWork.Redis.Budiness\\HomeWork.Redis.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iphon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\stackexchange.redis\\2.8.16\\stackexchange.redis.2.8.16.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\iphon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

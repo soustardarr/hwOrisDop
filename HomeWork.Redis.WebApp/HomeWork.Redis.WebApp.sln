@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Redis.WebApp", "src\HomeWork.Redis.WebApp\HomeWork.Redis.WebApp.csproj", "{53159917-3EF8-4F2D-8571-25CB76926E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transport", "src\Transport", "{D8EEEF8A-E90E-4CA3-A765-0E3B8137A169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transport.Redis", "src\Transport.Redis", "{70A6A13E-AF98-43A9-AB06-F32931E473CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "src\Business", "{78776509-665B-4F51-ADBF-7E3A54BA8DE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business.Abstractions", "src\Business.Abstractions", "{AE48D276-06B1-4FCE-AEE3-265C78E04A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "src\Domain", "{46C8BB96-305A-493B-AFBA-4DB0D8D3B7AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Domain", "src\HomeWork.Redis.Domain\HomeWork.Redis.Domain.csproj", "{38C63C74-26FD-468E-B3E3-C1B2A0AF753B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Client", "src\HomeWork.Redis.Client\HomeWork.Redis.Client.csproj", "{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Configuration", "src\HomeWork.Redis.Configuration\HomeWork.Redis.Configuration.csproj", "{7B4DFF0F-0416-494C-BCEE-826A73547912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Business.Abstractions", "src\HomeWork.Redis.Budiness.Abstractions\HomeWork.Redis.Business.Abstractions.csproj", "{30C0466F-8A30-42F4-8052-589C25E514BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Business", "src\HomeWork.Redis.Budiness\HomeWork.Redis.Business.csproj", "{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Redis.Exceptions", "src\HomeWork.Redis.Exceptions\HomeWork.Redis.Exceptions.csproj", "{26DCE39C-15A7-4372-81D4-16CBA6CAA79B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53159917-3EF8-4F2D-8571-25CB76926E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53159917-3EF8-4F2D-8571-25CB76926E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53159917-3EF8-4F2D-8571-25CB76926E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53159917-3EF8-4F2D-8571-25CB76926E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C63C74-26FD-468E-B3E3-C1B2A0AF753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C63C74-26FD-468E-B3E3-C1B2A0AF753B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C63C74-26FD-468E-B3E3-C1B2A0AF753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C63C74-26FD-468E-B3E3-C1B2A0AF753B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4DFF0F-0416-494C-BCEE-826A73547912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4DFF0F-0416-494C-BCEE-826A73547912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4DFF0F-0416-494C-BCEE-826A73547912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4DFF0F-0416-494C-BCEE-826A73547912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C0466F-8A30-42F4-8052-589C25E514BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C0466F-8A30-42F4-8052-589C25E514BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C0466F-8A30-42F4-8052-589C25E514BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C0466F-8A30-42F4-8052-589C25E514BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DCE39C-15A7-4372-81D4-16CBA6CAA79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DCE39C-15A7-4372-81D4-16CBA6CAA79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DCE39C-15A7-4372-81D4-16CBA6CAA79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DCE39C-15A7-4372-81D4-16CBA6CAA79B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70A6A13E-AF98-43A9-AB06-F32931E473CD} = {D8EEEF8A-E90E-4CA3-A765-0E3B8137A169}
+		{AE48D276-06B1-4FCE-AEE3-265C78E04A86} = {78776509-665B-4F51-ADBF-7E3A54BA8DE8}
+		{38C63C74-26FD-468E-B3E3-C1B2A0AF753B} = {46C8BB96-305A-493B-AFBA-4DB0D8D3B7AF}
+		{0E245F15-9B0F-4DC3-90DF-69C6FB43B0B0} = {70A6A13E-AF98-43A9-AB06-F32931E473CD}
+		{7B4DFF0F-0416-494C-BCEE-826A73547912} = {D8EEEF8A-E90E-4CA3-A765-0E3B8137A169}
+		{30C0466F-8A30-42F4-8052-589C25E514BE} = {AE48D276-06B1-4FCE-AEE3-265C78E04A86}
+		{28CDEDB6-6B72-48B4-A6B5-EDCCBDC8EAF7} = {78776509-665B-4F51-ADBF-7E3A54BA8DE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D464FAD7-4CB2-4B14-A229-8184B1CBB935}
+	EndGlobalSection
+EndGlobal

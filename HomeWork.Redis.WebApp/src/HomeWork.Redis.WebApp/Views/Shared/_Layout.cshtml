@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - RedisApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a asp-controller="Session" asp-action="Create">Create Game Session</a></li>
+                <li><a asp-controller="Session" asp-action="Get">Get Game Session</a></li>
+                <li><a asp-controller="Session" asp-action="Delete">Delete Game Session</a></li>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - RedisApp</p>
+    </footer>
+</body>
+</html>
